@@ -14,8 +14,6 @@ MONITOR_RATE - set it to 5000
 
 BOT_TOKEN - your Telegram bot token
 
-Before deploying open Heroku CLI and type <code>heroku scale -a helper-rose worker=1</code>
-
 Use <a href="https://uptimerobot.com">UptimeRobot</a> to stay your bot 24/7 online.
 
 <b>Commands:</b>

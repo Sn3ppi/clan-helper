@@ -111,6 +111,10 @@ async function checkUser(id) {
   return false;
 }
 
+app.get("/", function (req, res) {
+  res.send(`Server is running at ${process.env.HOST}:${process.env.PORT}\nClash of Clans parser bot by Sneppi and 0xRichi`);
+ });
+
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function () {
