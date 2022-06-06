@@ -112,7 +112,7 @@ async function checkUser(id) {
 }
 
 app.get("/", function (req, res) {
-  res.send(`Server is running at ${process.env.HOST}:${process.env.PORT}\nClash of Clans parser bot by Sneppi and 0xRichi`);
+  res.send(`Clash of Clans parser bot by Sneppi and 0xRichi`);
  });
 
 const PORT = process.env.PORT || 3000;
