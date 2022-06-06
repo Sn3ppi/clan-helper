@@ -2,6 +2,8 @@ import { Bot } from "grammy";
 import { COC } from "./etc/coc/api.mjs";
 import { Monitor } from "./etc/coc/monitoring.mjs"; 
 import { Tokener } from "./etc/coc/token.mjs";
+import express from "express";
+const app = express();
 
 const tokener = new Tokener(process.env.E_MAIL, process.env.PASSWORD, 'https://developer.clashofclans.com/api');
 async function getAPIToken() {
@@ -108,3 +110,9 @@ async function checkUser(id) {
   }
   return false;
 }
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, function () {
+    console.log(`Server is running at port ${PORT}`);
+});
