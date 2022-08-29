@@ -15,7 +15,7 @@ This is a Telegram bot created for <a href="https://link.clashofclans.com/ru?act
 <li>BOT_TOKEN - your Telegram bot token</li>
 
 <li>Use <a href="https://uptimerobot.com">UptimeRobot</a> to stay your bot 24/7 online.</li>
-/ul>
+</ul>
 
 <b>Commands:</b>
 
