@@ -1,6 +1,6 @@
 <b>Description:</b>
   
-This is a Telegram bot created for GoldenRose_ and SilverRose_ clan in Clash of Clans.
+This is a Telegram bot created for <a href="https://link.clashofclans.com/ru?action=OpenClanProfile&tag=2290R8QUC">GoldenRose_</a> and <a href="https://link.clashofclans.com/ru?action=OpenClanProfile&tag=2YULYY0QQ">SilverRose_</a> clan in Clash of Clans.
 
 <b>Deploy to Heroku:</b>
 
